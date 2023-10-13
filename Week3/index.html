@@ -1,0 +1,17 @@
+<html>
+    <h1>Tabla de multiplicar</h1>
+
+    <script>
+
+        for (let i=1; i<=10; i++){
+            let parcial = '';
+            for (let j=1; j<=10; j++){
+                let par = ('   '+i*j).substr(-3); //para alinear las columnas
+                parcial += par + ' ';
+            }
+            console.log(parcial);
+        }
+
+    </script>
+
+</html>
